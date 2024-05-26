@@ -7,7 +7,7 @@ export class NewsItem extends Component {
     return (
       <div>
         <div className="card">
-          <span className='position-absolute top-0 translate-middle badge rounded-pill bg-danger' style={{left: '80%', zIndex: '1'}}>
+          <span className='position-absolute top-0 text-light translate-middle badge rounded-pill bg-danger' style={{left: '80%', zIndex: '1'}}>
             {source}
           </span>
         <img className="card-img-top" src={imageUrl ?? "https://bharatshakti.in/wp-content/uploads/2024/05/bsi-bbb-63.png"} alt="..." />
